@@ -129,7 +129,7 @@ function preload() {
 
 function setup() {
   //Arcade Image
-  let img = createImg("./ArcadeCabinet-1.png");
+  let img = createImg("ArcadeCabinet-1.png");
   img.position(1,1);
   canvas = createCanvas(800, 400);
   canvas.parent('sketch-holder');
