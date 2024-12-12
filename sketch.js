@@ -103,33 +103,33 @@ let hasPlayedStacker = false;
 let invincibleTimer = 0;
 
 function preload() {
-  myFont = loadFont("Fonts/PixelifySans-Medium.ttf");
-  TvSprite = loadImage("Sprites/TVSprite.gif");
-  BreadSprite = loadImage("Sprites/BreadStickCarSprite.gif");
-  BoxSpri = loadImage("Sprites/Sprite-0.gif");
-  Spike = loadImage("Assets/spike.gif");
-  titleImage = loadImage("Assets/TitleScreen.jpeg");
-  smallbird = loadImage("Assets/smallbird.gif");
-  ScrollImage = loadImage("Assets/PracticeAnimatedBG-1.gif");
-  effectJump = loadImage("Sprites/PopAnimation.gif");
-  emptyImage = loadImage("Sprites/Empty..png");
-  tryFly = loadImage("Assets/spikeFly.gif");
-  endGame = loadImage("Assets/GAMEOVER.png");
-  backMini = loadImage("Sprites/Mini-GameBackground.gif");
-  star = loadImage("Sprites/Star.gif");
-  backback = loadImage("ArcadeCabinet-1.png");
-  musicJump = loadSound("retro-jump-3-236683.mp3");
-  musicDamage = loadSound("jump-climb-or-damage-sound-f-95942.mp3");
-  gameoSound = loadSound("game-over-38511.mp3");
-  blockPlace = loadSound("retro-blip-236676.mp3");
-  startSound = loadSound("retro-coin-1-236677.mp3");
-  restartSound = loadSound("coin-collect-retro-8-bit-sound-effect-145251.mp3");
-  musicBack = loadSound("8-bit-retro-game-music-233964.mp3");
+  myFont = loadFont("./PixelifySans-Medium.ttf");
+  TvSprite = loadImage("./TVSprite.gif");
+  BreadSprite = loadImage("./BreadStickCarSprite.gif");
+  BoxSpri = loadImage("./Sprite-0.gif");
+  Spike = loadImage("./spike.gif");
+  titleImage = loadImage("./TitleScreen.jpeg");
+  smallbird = loadImage("./mallbird.gif");
+  ScrollImage = loadImage("./PracticeAnimatedBG-1.gif");
+  effectJump = loadImage("./PopAnimation.gif");
+  emptyImage = loadImage("S./Empty..png");
+  tryFly = loadImage("./spikeFly.gif");
+  endGame = loadImage("./GAMEOVER.png");
+  backMini = loadImage("./Mini-GameBackground.gif");
+  star = loadImage("./Star.gif");
+  backback = loadImage("./ArcadeCabinet-1.png");
+  musicJump = loadSound("./retro-jump-3-236683.mp3");
+  musicDamage = loadSound("./jump-climb-or-damage-sound-f-95942.mp3");
+  gameoSound = loadSound("./game-over-38511.mp3");
+  blockPlace = loadSound("./retro-blip-236676.mp3");
+  startSound = loadSound("./retro-coin-1-236677.mp3");
+  restartSound = loadSound("./coin-collect-retro-8-bit-sound-effect-145251.mp3");
+  musicBack = loadSound("./8-bit-retro-game-music-233964.mp3");
 }
 
 function setup() {
   //Arcade Image
-  let img = createImg("ArcadeCabinet-1.png");
+  let img = createImg("./ArcadeCabinet-1.png");
   img.position(1,1);
   canvas = createCanvas(800, 400);
   canvas.parent('sketch-holder');
